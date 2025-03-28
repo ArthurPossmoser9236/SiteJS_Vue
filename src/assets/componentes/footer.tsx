@@ -1,11 +1,11 @@
 import React from 'react'
-import './Header.css'
+import './footer.css'
 
-function header(){
+function footer(){
     return (
         <>
         
-        <header>teste</header> 
+        <footer>teste</footer> 
 
         </>
     )
