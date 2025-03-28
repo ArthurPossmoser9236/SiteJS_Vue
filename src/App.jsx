@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Header from './componentes/Header'
 import './App.css'
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
 
   return (
     <>
+
+    <Header />
       <div className="page">
         <div className="title">
           <h1>Título</h1>
