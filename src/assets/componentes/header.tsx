@@ -1,12 +1,12 @@
-import React from 'react'
-import './Header.css'
+import React from 'react';
 
-function header(){
-    return (
-        <>
-        
-        <header>teste</header> 
+const Header: React.FC = () => {
+  return (
+    <header className="header">
+      <h1>Pizzaria Delícia</h1>
+      <p>As melhores pizzas da cidade!</p>
+    </header>
+  );
+};
 
-        </>
-    )
-}
+export default Header;
