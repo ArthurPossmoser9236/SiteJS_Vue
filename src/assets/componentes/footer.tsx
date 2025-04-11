@@ -1,9 +1,29 @@
 import React from 'react';
+import "../../app.css";
 
-const Footer: React.FC = () => {
+const Footer = () => {
   return (
-    <footer className="footer">
-      <p>© 2025 Pizzaria Delícia. Todos os direitos reservados.</p>
+    <footer className="site-footer" id="contato">
+      <div className="container">
+        <div className="footer-content">
+          <div className="footer-logo">
+            <img src="images/logo.png" alt="Logotipo da Pizzaria" />
+          </div>
+          <div className="footer-info">
+            <p>Rua Exemplo, 123 - Bairro - Cidade/Estado</p>
+            <p>(11) 1234-5678</p>
+            <p>contato@pizzariadelicia.com.br</p>
+          </div>
+          <div className="footer-social">
+            <a href="#"><img src="images/facebook.png" alt="Facebook" /></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram" /></a>
+            <a href="#"><img src="images/whatssap.png" alt="Whatssap" /></a>
+          </div>
+        </div>
+        <p className="copyright">
+          &copy; 2025 Pizzaria Delícia. Todos os direitos reservados.
+        </p>
+      </div>
     </footer>
   );
 };

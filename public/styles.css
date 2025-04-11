@@ -1,9 +1,11 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
+  /* Fonte e corpo */
   body {
     font-family: 'Montserrat', sans-serif;
     color: #333;
@@ -11,12 +13,15 @@
     line-height: 1.6;
   }
   
+  /* Container centralizado */
   .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
   }
   
+  /* ========================= */
+  /* Header e Navegação */
   .site-header {
     background-color: #fff;
     border-bottom: 1px solid #eaeaea;
@@ -30,7 +35,7 @@
   }
   
   .logo img {
-    height: 60px;
+    height: 60px; /* Conforme o design */
   }
   
   .menu ul {
@@ -51,10 +56,12 @@
     color: #e63946;
   }
   
+  /* ========================= */
+  /* Banner */
   .banner {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 600px; /* Altura ajustada conforme o design */
     overflow: hidden;
   }
   
@@ -99,6 +106,8 @@
     background-color: #cc333d;
   }
   
+  /* ========================= */
+  /* Ofertas e Mais Vendidos */
   .ofertas {
     background-color: #f7f7f7;
     padding: 60px 0;
@@ -123,7 +132,7 @@
     border-radius: 10px;
     overflow: hidden;
     width: 320px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
   .card img {
@@ -155,6 +164,8 @@
     color: #e63946;
   }
   
+  /* ========================= */
+  /* Sabores e Preços */
   .sabores {
     padding: 60px 0;
     text-align: center;
@@ -201,6 +212,8 @@
     font-weight: 700;
   }
   
+  /* ========================= */
+  /* Footer */
   .site-footer {
     background-color: #333;
     color: #fff;
