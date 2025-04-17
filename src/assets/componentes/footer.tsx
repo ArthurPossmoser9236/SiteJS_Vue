@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="images/logo.png" alt="Logotipo da Pizzaria" />
+            <img src="imgs/logo.png" alt="Logotipo da Pizzaria" />
           </div>
           <div className="footer-info">
             <p>Rua Exemplo, 123 - Bairro - Cidade/Estado</p>
@@ -15,9 +15,9 @@ const Footer = () => {
             <p>contato@pizzariadelicia.com.br</p>
           </div>
           <div className="footer-social">
-            <a href="#"><img src="images/facebook.png" alt="Facebook" /></a>
-            <a href="#"><img src="images/instagram.png" alt="Instagram" /></a>
-            <a href="#"><img src="images/whatssap.png" alt="Whatssap" /></a>
+            <a href="#"><img src="imgs/facebook.png" alt="Facebook" /></a>
+            <a href="#"><img src="imgs/instagram.png" alt="Instagram" /></a>
+            <a href="#"><img src="imgs/whatssap.png" alt="Whatssap" /></a>
           </div>
         </div>
         <p className="copyright">

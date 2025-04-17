@@ -6,7 +6,7 @@ const Header = () => {
     <header className="site-header">
       <div className="container header-container">
         <div className="logo">
-          <img src="images/logo.png" alt="Logotipo da Pizzaria" />
+          <img src="imgs/logo.png" alt="Logotipo da Pizzaria" />
         </div>
         <nav className="menu">
           <ul>
